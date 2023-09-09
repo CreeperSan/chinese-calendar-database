@@ -89,4 +89,4 @@ If you want to generate the database file by yourself, you can follow the steps 
 3. Execute `src/01_download_chinese_calendar_text.py` to download the data from HongKong Observatory
 4. You will find some text files in `data/txt` folder
 5. Execute `src/02_generate_database_from_chinese_calendar_text.py` to convert the text file to SQLite database
-6. You will find the database file `chinese-calendar.db` in `data/db` folder, enjoy it!
+6. You will find the database file `chinese_calendar.db` in `data/db` folder, enjoy it!

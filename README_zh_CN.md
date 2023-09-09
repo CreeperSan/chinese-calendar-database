@@ -87,4 +87,4 @@
 3. 运行 `src/01_download_chinese_calendar_text.py` 从香港天文台网站中下载数据
 4. 确保数据正确下载到了 `data/txt` 文件夹中
 5. 运行 `src/02_generate_database_from_chinese_calendar_text.py` 将文本文件转换为 SQLite 数据库
-6. 你将在 `data/db` 文件夹中找到生成的数据库文件 `chinese-calendar.db`，尽情享用吧！
+6. 你将在 `data/db` 文件夹中找到生成的数据库文件 `chinese_calendar.db`，尽情享用吧！
