@@ -1,0 +1,5 @@
+.idea
+data/db/*
+!data/db/.gitkeep
+data/txt/*
+!data/txt/.gitkeep
