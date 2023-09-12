@@ -18,11 +18,11 @@
 |------------------|---------|--------------------|
 | id               | INTEGER | 主键                 |
 | year             | INTEGER | 对应公历的年             |
-| month            | INTEGER | 对应公历的月, 从 0 开始     |
+| month            | INTEGER | 对应公历的月, 从 1 开始     |
 | day              | INTEGER | 对应公历的日             |
 | weekday          | INTEGER | 对应星期, 1 为周日, 2 为周一 |
 | lunar_year       | INTEGER | 对应农历的年             |
-| lunar_month      | INTEGER | 对应农历的月, 从 0 开始     |
+| lunar_month      | INTEGER | 对应农历的月, 从 1 开始     |
 | lunar_day        | INTEGER | 对应农历的日             |
 | is_leap_month    | INTEGER | 是否为闰月              |
 | lunar_year_name  | TEXT    | 农历年份的名称            |

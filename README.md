@@ -20,11 +20,11 @@ The database table name is `days`, all Chinese text in database is Traditional C
 |------------------|---------|--------------------------------------------|
 | id               | INTEGER | Primary Key                                |
 | year             | INTEGER | Year in Gregorian calendar                 |
-| month            | INTEGER | Month in Gregorian calendar, starts from 0 |
+| month            | INTEGER | Month in Gregorian calendar, starts from 1 |
 | day              | INTEGER | Day in Gregorian calendar                  |
 | weekday          | INTEGER | Weekday, 1 means Sunday, 2 means Monday    |
 | lunar_year       | INTEGER | Lunar Year                                 |
-| lunar_month      | INTEGER | Lunar Month, starts from 0                 |
+| lunar_month      | INTEGER | Lunar Month, starts from 1                 |
 | lunar_day        | INTEGER | Lunar Day                                  |
 | is_leap_month    | INTEGER | Is Lunar Leap Month                        |
 | lunar_year_name  | TEXT    | Lunar year name in Traditional Chinese     |
